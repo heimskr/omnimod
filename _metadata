@@ -1,0 +1,12 @@
+{
+  "version" : "1.1.0",
+  "tags" : "Crafting and Building|Furniture and Objects",
+  "author" : "^#FF0000;Heimskr^reset;",
+  "description" : "Adds a modified force door that always blocks liquids. Also other things.",
+  "requires" : [],
+  "name" : "heimskr_omnimod",
+  "steamContentId" : "",
+  "friendlyName" : "^#3DA7BF;Heimskr's ^#BFAD6B;Omnimod^reset;",
+  "link" : "",
+  "includes" : []
+}
