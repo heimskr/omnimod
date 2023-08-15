@@ -5,8 +5,8 @@
   "description" : "Adds a modified force door that always blocks liquids. Also other things.",
   "requires" : [],
   "name" : "heimskr_omnimod",
-  "steamContentId" : "",
+  "steamContentId" : "3020859495",
   "friendlyName" : "^#3DA7BF;Heimskr's ^#BFAD6B;Omnimod^reset;",
-  "link" : "",
+  "link" : "https://heimskr.gay/",
   "includes" : []
 }
