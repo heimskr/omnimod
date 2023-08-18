@@ -1,0 +1,163 @@
+{
+  "objectName" : "quiettrap",
+  "colonyTags" : ["human","evil"],
+  "printable" : true,
+  "rarity" : "Common",
+  "description" : "A sillie trap designed to perplex invaders.",
+  "shortdescription" : "Quiet Trap",
+  "race" : "avian",
+
+  "apexDescription" : "A quiet trap, definitely not one to avoid.",
+  "avianDescription" : "Ouch! Overridden sound effects and feathers don't mix!",
+  "floranDescription" : "Quiet trap is Floran's bessst enemy!",
+  "glitchDescription" : "Observant. It's just a little quiet trap, nothing that can't be overcome.",
+  "humanDescription" : "A trusty, reliable quiet trap.",
+  "hylotlDescription" : "The swift warrior fears not the overridden sound effects.",
+  "novakidDescription" : "Simple, yet simple. My favorite kind.",
+
+  "category" : "trap",
+  "price" : 1000,
+
+  "inventoryIcon" : "quiettrapicon.png",
+  "orientations" : [
+    {
+      "image" : "quiettrap.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "animationPosition" : [-8, 0],
+      "animationParts" : {
+        "bg" : "quiettrap.png",
+        "fg" : "quiettrap.png"
+      },
+
+      "projectileDirection" : [0, 1],
+      "projectilePosition" : [0, 0.7],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "quiettrap.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+
+      "animationPosition" : [0, 0],
+      "animationParts" : {
+        "bg" : "quiettrap.png",
+        "fg" : "quiettrap.png"
+      },
+
+      "projectileDirection" : [0, 1],
+      "projectilePosition" : [1, 0.7],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "quiettrapleft.png:<color>.<frame>",
+      "imagePosition" : [0, -8],
+      "direction" : "right",
+
+      "animationPosition" : [0, -8],
+      "animationParts" : {
+        "bg" : "quiettrapleft.png",
+        "fg" : "quiettrapleft.png"
+      },
+
+      "projectileDirection" : [1, 0],
+      "projectilePosition" : [0.7, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left" ]
+    },
+    {
+      "image" : "quiettrapright.png:<color>.<frame>",
+      "imagePosition" : [0, -8],
+      "direction" : "right",
+
+      "animationPosition" : [0, -8],
+      "animationParts" : {
+        "bg" : "quiettrapright.png",
+        "fg" : "quiettrapright.png"
+      },
+
+      "projectileDirection" : [-1, 0],
+      "projectilePosition" : [0.3, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "right" ]
+    },
+    {
+      "image" : "quiettrapceiling.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "animationPosition" : [-8, 0],
+      "animationParts" : {
+        "bg" : "quiettrapceiling.png",
+        "fg" : "quiettrapceiling.png"
+      },
+
+      "projectileDirection" : [0, -1],
+      "projectilePosition" : [0, 0.3],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    },
+    {
+      "image" : "quiettrapceiling.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+
+      "animationPosition" : [0, 0],
+      "animationParts" : {
+        "bg" : "quiettrapceiling.png",
+        "fg" : "quiettrapceiling.png"
+      },
+
+      "projectileDirection" : [0, -1],
+      "projectilePosition" : [1, 0.3],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/heimskr/quiettrap/quiettrap.lua" ],
+  "scriptDelta" : 2,
+
+  "animation" : "/objects/wired/projectiletrap/projectiletrap.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "shoot" : [ ],
+      "on" : [ ],
+      "off" : [ ]
+    }
+  },
+
+  "soundEffect" : "/sfx/heimskr/silence.ogg", // this is a thing that also works
+
+  "inputNodes" : [ [0, 0] ],
+
+  "inactiveLightColor" : [0, 0, 0], // light color to emit when the object is 'off'
+  "activeLightColor" : [0, 0, 0], // light color to emit when the object is 'on'
+
+  "fireTime" : 4.0, // rate of fire
+  "fireTimeVariance" : 0.0, // variation in rate of fire
+  "projectile" : "invisibleprojectile", // name of projectile (required)
+  "projectileConfig" : { // extra configuration overrides for projectile
+    "damageTeam" : { "type" : "friendly" },
+    "power" : 0,
+    "speed" : 0,
+    "timeToLive" : 0
+  },
+
+  "health" : 25,
+
+  "smashOnBreak" : false,
+  "smashSounds" : [ "/sfx/heimskr/bingchilling.ogg" ],
+  "smashParticles" : [ { "count" : 5, "particle" : "potshard" } ]
+}
