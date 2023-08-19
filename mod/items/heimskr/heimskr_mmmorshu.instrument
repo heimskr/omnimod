@@ -1,0 +1,19 @@
+{
+  "itemName" : "heimskr_mmmorshu",
+  "price" : 9000,
+  "category" : "musicalInstrument",
+  "inventoryIcon" : "heimskr_mmmorshuicon.png",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "The legendary shopkeeper we all know and love, now in instrument form.",
+  "shortdescription" : "MMMorshu",
+  "largeImage" : "heimskr_mmmorshu.png",
+  "image" : "heimskr_mmmorshu.png",
+  "tooltipKind" : "tool",
+  "activeImage" : "heimskr_mmmorshu.png",
+  "activeAngle" : 6,
+  "activeHandPosition" : [0.2, -0.1],
+  "handPosition" : [0, 0],
+  "twoHanded" : true,
+  "kind" : "heimskr_mmmorshu"
+}

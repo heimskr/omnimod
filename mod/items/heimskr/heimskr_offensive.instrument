@@ -1,0 +1,19 @@
+{
+  "itemName" : "heimskr_offensive",
+  "price" : 9000,
+  "category" : "musicalInstrument",
+  "inventoryIcon" : "heimskr_offensiveicon.png",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "The announcer is Offended!",
+  "shortdescription" : "Offensive!",
+  "largeImage" : "heimskr_offensive.png",
+  "image" : "heimskr_offensive.png",
+  "tooltipKind" : "tool",
+  "activeImage" : "heimskr_offensive.png",
+  "activeAngle" : 6,
+  "activeHandPosition" : [0.2, -0.1],
+  "handPosition" : [0, 0],
+  "twoHanded" : true,
+  "kind" : "heimskr_offensive"
+}

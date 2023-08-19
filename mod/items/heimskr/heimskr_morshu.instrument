@@ -1,0 +1,19 @@
+{
+  "itemName" : "heimskr_morshu",
+  "price" : 9000,
+  "category" : "musicalInstrument",
+  "inventoryIcon" : "heimskr_morshuicon.png",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "Comes with lammmp oil, rope and bommmbs.",
+  "shortdescription" : "Morshu",
+  "largeImage" : "heimskr_morshu.png",
+  "image" : "heimskr_morshu.png",
+  "tooltipKind" : "tool",
+  "activeImage" : "heimskr_morshu.png",
+  "activeAngle" : 6,
+  "activeHandPosition" : [0.2, -0.1],
+  "handPosition" : [0, 0],
+  "twoHanded" : true,
+  "kind" : "heimskr_morshu"
+}

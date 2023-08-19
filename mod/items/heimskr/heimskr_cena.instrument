@@ -1,0 +1,20 @@
+{
+  "itemName" : "heimskr_cena",
+  "price" : 9000,
+  "category" : "musicalInstrument",
+  "inventoryIcon" : "heimskr_cenaicon.png",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "John Cena. For when you're binging and chilling so hard.",
+  "shortdescription" : "John Cena",
+  "largeImage" : "heimskr_cena.png",
+  "image" : "heimskr_cena.png",
+  "tooltipKind" : "tool",
+  "activeImage" : "heimskr_cena.png",
+  "activeAngle" : 6,
+  "activeHandPosition" : [0.2, -0.1],
+
+  "handPosition" : [0, 0],
+  "twoHanded" : true,
+  "kind" : "heimskr_cena"
+}

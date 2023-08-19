@@ -1,0 +1,19 @@
+{
+  "itemName" : "heimskr_mayo",
+  "price" : 9000,
+  "category" : "musicalInstrument",
+  "inventoryIcon" : "heimskr_mayoicon.png",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "Thanks to modern technology, now mayonnaise IS an instrument!",
+  "shortdescription" : "Mayonnaise",
+  "largeImage" : "heimskr_mayo.png",
+  "image" : "heimskr_mayo.png",
+  "tooltipKind" : "tool",
+  "activeImage" : "heimskr_mayo.png",
+  "activeAngle" : 6,
+  "activeHandPosition" : [0.2, -0.1],
+  "handPosition" : [0, 0],
+  "twoHanded" : true,
+  "kind" : "heimskr_mayo"
+}
