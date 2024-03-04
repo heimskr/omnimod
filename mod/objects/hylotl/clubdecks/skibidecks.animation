@@ -81,7 +81,30 @@
             "type" : "textured",
             "image" : "/projectiles/npcs/flame/icon.png",
             "flippable" : false,
-            "position" : [4.5, 1.5],
+            "position" : [4.5, 0.5],
+            "size" : 0.5,
+            "color" : [255, 255, 255, 255],
+            "light" : [0, 0, 0],
+            "fade" : 0,
+            "destructionAction" : "shrink",
+            "destructionTime" : 5,
+            "initialVelocity" : [2.0, -3.0],
+            "finalVelocity" : [0.0, 5.0],
+            "approach" : [0, 20],
+            "timeToLive" : 0.5,
+            "layer" : "middle",
+            "collidesForeground" : false,
+            "variance" : {
+              "initialVelocity" : [1.0, 4.0]
+            }
+          }
+        },
+        {
+          "particle" : {
+            "type" : "textured",
+            "image" : "/items/throwables/bomb.png",
+            "flippable" : false,
+            "position" : [4.5, 0.5],
             "size" : 0.5,
             "color" : [255, 255, 255, 255],
             "light" : [0, 0, 0],
@@ -104,7 +127,7 @@
             "type" : "textured",
             "image" : "/projectiles/npcs/flame/icon.png",
             "flippable" : false,
-            "position" : [0.5, 2.5],
+            "position" : [4.5, 1.5],
             "size" : 0.5,
             "color" : [255, 255, 255, 255],
             "light" : [0, 0, 0],
@@ -128,6 +151,75 @@
             "image" : "/items/throwables/bomb.png",
             "flippable" : false,
             "position" : [4.5, 1.5],
+            "size" : 0.5,
+            "color" : [255, 255, 255, 255],
+            "light" : [0, 0, 0],
+            "fade" : 0,
+            "destructionAction" : "shrink",
+            "destructionTime" : 5,
+            "initialVelocity" : [2.0, -3.0],
+            "finalVelocity" : [0.0, 5.0],
+            "approach" : [0, 20],
+            "timeToLive" : 0.5,
+            "layer" : "middle",
+            "collidesForeground" : false,
+            "variance" : {
+              "initialVelocity" : [1.0, 4.0]
+            }
+          }
+        },
+        {
+          "particle" : {
+            "type" : "textured",
+            "image" : "/projectiles/npcs/flame/icon.png",
+            "flippable" : false,
+            "position" : [4.5, 2.5],
+            "size" : 0.5,
+            "color" : [255, 255, 255, 255],
+            "light" : [0, 0, 0],
+            "fade" : 0,
+            "destructionAction" : "shrink",
+            "destructionTime" : 5,
+            "initialVelocity" : [2.0, -3.0],
+            "finalVelocity" : [0.0, 5.0],
+            "approach" : [0, 20],
+            "timeToLive" : 0.5,
+            "layer" : "middle",
+            "collidesForeground" : false,
+            "variance" : {
+              "initialVelocity" : [1.0, 4.0]
+            }
+          }
+        },
+        {
+          "particle" : {
+            "type" : "textured",
+            "image" : "/items/throwables/bomb.png",
+            "flippable" : false,
+            "position" : [4.5, 2.5],
+            "size" : 0.5,
+            "color" : [255, 255, 255, 255],
+            "light" : [0, 0, 0],
+            "fade" : 0,
+            "destructionAction" : "shrink",
+            "destructionTime" : 5,
+            "initialVelocity" : [2.0, -3.0],
+            "finalVelocity" : [0.0, 5.0],
+            "approach" : [0, 20],
+            "timeToLive" : 0.5,
+            "layer" : "middle",
+            "collidesForeground" : false,
+            "variance" : {
+              "initialVelocity" : [1.0, 4.0]
+            }
+          }
+        },
+        {
+          "particle" : {
+            "type" : "textured",
+            "image" : "/projectiles/npcs/flame/icon.png",
+            "flippable" : false,
+            "position" : [0.5, 2.5],
             "size" : 0.5,
             "color" : [255, 255, 255, 255],
             "light" : [0, 0, 0],
