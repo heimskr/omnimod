@@ -1,0 +1,64 @@
+{
+	"objectName" : "morshu_tv",
+	"colonyTags" : ["wreck","electronic"],
+	"rarity" : "Common",
+	"category" : "decorative",
+	"price" : 100,
+	"lightColor" : [100, 100, 100],
+
+	"flickerPeriod" : 0.2,
+	"flickerMinIntensity" : 0.95,
+	"flickerMaxIntensity" : 1,
+	"flickerPeriodVariance" : 0.0,
+	"flickerIntensityVariance" : 0.05,
+
+	"description" : "The screen sends out an ominous flickering Morshu.",
+	"shortdescription" : "Morshu Screen",
+	"race" : "generic",
+
+	"apexDescription" : "It seems there's Morshu.",
+	"avianDescription" : "Just Morshu.",
+	"floranDescription" : "Pretty dancing Morshu machine!",
+	"glitchDescription" : "Sad. No signal, just Morshu.",
+	"humanDescription" : "Morshu. No signal I suppose.",
+	"hylotlDescription" : "This monitor doesn't lack Morshu.",
+	"novakidDescription" : "Nope, nothin' on. Except Morshu.",
+
+	"inventoryIcon" : "morshu_tvicon.png",
+	"orientations" : [
+	  {
+		"image" : "morshu_tv.png:<color>.off",
+		"flipImages" : true,
+		"imagePosition" : [-24, -16],
+		"spaceScan" : 0.1,
+		"anchors" : [ "background" ],
+		"direction" : "left",
+		"animationParts" : {
+			"bg" : "morshu_tv.png",
+			"fg" : "morshu_tvlit.png"
+		},
+		"animationPosition" : [-24, -16]
+	  },
+	  {
+		"image" : "morshu_tv.png:<color>.off",
+		"imagePosition" : [-24, -16],
+		"spaceScan" : 0.1,
+		"anchors" : [ "background" ],
+		"direction" : "right",
+		"animationParts" : {
+			"bg" : "morshu_tv.png",
+			"fg" : "morshu_tvlit.png"
+		},
+		"animationPosition" : [-24, -16]
+	  }
+	],
+
+	"soundEffect" : "/sfx/heimskr/mmm.ogg",
+
+	"animation" : "morshu_tv.animation",
+
+	"scripts" : [ "/objects/wired/light/light.lua" ],
+	"scriptDelta" : 60,
+
+	"inputNodes" : [ [0, 0] ]
+  }
