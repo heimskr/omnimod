@@ -1,0 +1,32 @@
+{
+	"objectName": "pixelmorshu",
+	"rarity": "Rare",
+	"category": "decorative",
+	"price": 50,
+	"printable": true,
+
+	"description": "It's Morshu.",
+	"shortdescription": "Pixel Morshu",
+	"race": "generic",
+
+	"apexDescription": "It's Morshu.",
+	"avianDescription": "It's Morshu.",
+	"floranDescription": "It's Morshu.",
+	"glitchDescription": "It's Morshu.",
+	"humanDescription": "It's Morshu.",
+	"hylotlDescription": "It's Morshu.",
+	"novakidDescription": "It's Morshu.",
+
+
+	"inventoryIcon": "pixelmorshuicon.png",
+	"orientations": [
+		{
+			"image": "pixelmorshu.png:<color>",
+			"imagePosition": [1, -0],
+			"frames": 1,
+			"animationCycle": 0.5,
+			"spaceScan": 0.1,
+			"anchors": []
+		}
+	]
+}
