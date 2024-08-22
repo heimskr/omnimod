@@ -1,0 +1,19 @@
+{
+  "itemName" : "heimskr_die",
+  "price" : 9000,
+  "category" : "musicalInstrument",
+  "inventoryIcon" : "heimskr_dieicon.png",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "Play this-or else you will DIE.",
+  "shortdescription" : "DIE",
+  "largeImage" : "heimskr_die.png",
+  "image" : "heimskr_die.png",
+  "tooltipKind" : "tool",
+  "activeImage" : "heimskr_die.png",
+  "activeAngle" : 6,
+  "activeHandPosition" : [0.2, -0.1],
+  "handPosition" : [0, 0],
+  "twoHanded" : true,
+  "kind" : "heimskr_die"
+}

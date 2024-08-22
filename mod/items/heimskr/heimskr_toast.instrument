@@ -1,0 +1,19 @@
+{
+  "itemName" : "heimskr_toast",
+  "price" : 9000,
+  "category" : "musicalInstrument",
+  "inventoryIcon" : "heimskr_toasticon.png",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "You know what they say-all toasters toast TOAST!",
+  "shortdescription" : "TOAST",
+  "largeImage" : "heimskr_toast.png",
+  "image" : "heimskr_toast.png",
+  "tooltipKind" : "tool",
+  "activeImage" : "heimskr_toast.png",
+  "activeAngle" : 6,
+  "activeHandPosition" : [0.2, -0.1],
+  "handPosition" : [0, 0],
+  "twoHanded" : true,
+  "kind" : "heimskr_toast"
+}

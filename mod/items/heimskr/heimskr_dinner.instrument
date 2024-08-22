@@ -1,0 +1,19 @@
+{
+  "itemName" : "heimskr_dinner",
+  "price" : 9000,
+  "category" : "musicalInstrument",
+  "inventoryIcon" : "heimskr_dinnericon.png",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "This instrument is what's for dinner.",
+  "shortdescription" : "DINNER.",
+  "largeImage" : "heimskr_dinner.png",
+  "image" : "heimskr_dinner.png",
+  "tooltipKind" : "tool",
+  "activeImage" : "heimskr_dinner.png",
+  "activeAngle" : 6,
+  "activeHandPosition" : [0.2, -0.1],
+  "handPosition" : [0, 0],
+  "twoHanded" : true,
+  "kind" : "heimskr_dinner"
+}

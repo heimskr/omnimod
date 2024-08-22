@@ -27,33 +27,33 @@
 	"inventoryIcon" : "morshu_tvicon.png",
 	"orientations" : [
 	  {
-		"image" : "morshu_tv.png:<color>.off",
+		"image" : "morshu_tv2.png:<color>.off",
 		"flipImages" : true,
 		"imagePosition" : [-24, -16],
 		"spaceScan" : 0.1,
 		"anchors" : [ "background" ],
 		"direction" : "left",
 		"animationParts" : {
-			"bg" : "morshu_tv.png",
+			"bg" : "morshu_tv2.png",
 			"fg" : "morshu_tvlit.png"
 		},
 		"animationPosition" : [-24, -16]
 	  },
 	  {
-		"image" : "morshu_tv.png:<color>.off",
+		"image" : "morshu_tv2.png:<color>.off",
 		"imagePosition" : [-24, -16],
 		"spaceScan" : 0.1,
 		"anchors" : [ "background" ],
 		"direction" : "right",
 		"animationParts" : {
-			"bg" : "morshu_tv.png",
+			"bg" : "morshu_tv2.png",
 			"fg" : "morshu_tvlit.png"
 		},
 		"animationPosition" : [-24, -16]
 	  }
 	],
 
-	"soundEffect" : "/sfx/heimskr/mmm.ogg",
+	"soundEffect" : "/sfx/heimskr/beatbox.ogg",
 
 	"animation" : "morshu_tv.animation",
 
